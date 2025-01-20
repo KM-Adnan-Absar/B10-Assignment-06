@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Daisy ui  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="styles.css">
+
+<!-- Font awesome  -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Font  -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    </style>
+    
+</head>
+<body class="lato-bold">
+    <header>
+    <nav class="w-11/12 mx-auto py-2 flex my-2 items-center">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow  text-gray-600">
+                  <li><a>Home</a></li>
+                  <li>
+                    <a>Shop </a>
+                  
+                  </li>
+                  <li><a>Contact </a></li>
+                </ul>
+              </div>
+              <div class="flex font-bold gap-2 "> 
+                <img src="assetes/logo.webp" alt="">
+                <h2>PADDY</h2>
+            </div>
+            </div>
+          
+            <div class="navbar-center hidden lg:flex space-x-4 text-gray-600">
+                <ul class="menu menu-horizontal px-1 -ml-24">
+                  <li><a>Home</a></li>
+                  <li>
+                      <li><a>Shop</a></li>
+                  </li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <div class='border rounded-full space-x-6 ml-80'>
+                  <i class="fa-regular fa-user p-2"></i>
+              </div>
+           
+          </div>
+        </nav>
+
+   <!-- Banner  -->
+         <div class="text-center space-y-3 w-[500px] mx-auto mt-8">
+          <p class="text-sm text-gray-600">Bringing Families together</p>
+            <h2 class="text-4xl">Your Path to Adoption <br> Starts Here</h2>
+            <p class="text-sm">In return for our care and affection, pets offer loyalty, comfort, and countless heartwarming moments, making our lives richer and more fulfilling.</p>
+    <button class="border rounded-md p-2 text-white bg-[#0E7A81] mt-3">View More</button>
+         </div>
+         <img class="w-[700px] mx-auto mt-4" src="assetes/pet.webp" alt="">
+        </header>
+
+
+        <main>
+       
+            <div class="text-center mt-8 w-[500px] mx-auto">
+               <h2 class="text-2xl">Adopt  Your  Best Friend</h2>
+               <p class="text-sm mt-4 text-gray-600">There’s no greater joy than the companionship of a loving pet, and adoption gives you the chance to find your best friend while also making a difference.</p>
+            </div>
+
+<!-- Category Section -->
+
+<section id="categories" class="p-2 flex gap-x-14 justify-center mt-8 ">
+
+</section>
+
+<!-- category item display section -->
+<section id="dogs" class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-10">
+
+</section>
+</main>
+
+<!-- Footer  -->
+
+<footer class="mt-16 bg-[#131313]">
+
+  <div class="flex justify-between w-4/5 mx-auto">
+    <div>
+        <div class="flex font-bold gap-2"> 
+            <img src="assetes/logo.webp" alt="">
+            <h2 class="text-white">PADDY</h2>
+        </div>
+        <div class="text-gray-300 text-sm mt-4 font-normal space-y-2">
+      
+            <ul>Location: 130 College Road,Chattogram</ul>
+            <ul>E-mail: mjilan@gmail.com</ul>
+            <ul>Phone: 01958765365 </ul>
+            <ul>Opening hours: 9:00 AM to 5:00 PM </ul>
+          
+        </div>
+    <div class="mt-4 space-x-6 ml-8">
+        <i class="fa-brands fa-facebook fa-xl" style="color: #74C0FC;"></i>
+        <i class="fa-brands fa-instagram fa-xl" style="color: #B197FC;"></i>
+          <i class="fa-brands fa-youtube fa-xl" style="color: #c41c1c;"></i>
+    </div>
+      </div>
+    <div>
+        <h2 class="text-white font-normal ">Useful Links</h2>
+        <div class="text-sm text-gray-400 mt-2 space-y-2">
+        <ul>Home</ul>
+        <ul>About Us </ul>
+        <ul>Animals</ul>
+        <ul>Foundation</ul>
+        <ul>Contact</ul>
+        </div>
+        </div>
+
+        <div class="space-y-4">
+            <div>
+                <h2 class="text-white ">Drop a Meassage</h2>
+                </div>
+
+<div>
+    <input class="p-2 rounded" type="email" name="email" placeholder="Enter your Email" id="">
+</div>
+
+              <div>
+                <button class="bg-[#0E7A81] p-2 rounded w-full text-white font-bold text-lg" type="button">Subscribe</button>
+              </div>
+    
+        </div>
+  </div>
+  
+
+
+</footer>
+
+<script src="scripts/category.js"></script>
+</body>
+</html>
